@@ -4,10 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./src",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "exercicio1": "node ./src/exercicio1",
+    "exercicio2": "node ./src/exercicio2",
+    "exercicio3": "node ./src/exercicio3",
+    "exercicio4": "node ./src/exercicio4",
+    "exercicio5": "node ./src/exercicio5",
+    "exercicio6": "node ./src/exercicio6",
+    "exercicio7": "node ./src/exercicio7",
+    "exercicio8": "node ./src/exercicio8",
+    "exercicio9": "node ./src/exercicio9",
+    "exercicio10": "node ./src/exercicio10",
+    "exercicio11": "node ./src/exercicio11"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "exercicios": "file:"
+  }
 }
