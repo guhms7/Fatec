@@ -1,6 +1,6 @@
-let i =0;
-while(i<6){
-    nro = Math.random();
+let i = 0;
+while (i < 6) {
+    let nro = Math.random();
     console.log(nro);
-    i+=1;
+    i += 1;
 }
