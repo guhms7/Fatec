@@ -1,5 +1,6 @@
 let placa = "hgh7778"//prompt("Entre com a placa:");
 for (let i = 0; i < placa.length; i++) {
-    placaI = placa[i]
-    console.log(placa[i], placa.charCodeAt(i));
+    if(placa.charCodeAt(i)>=48 && placa.charCodeAt(i)<=57 ){
+        console.log(placa[i], placa.charCodeAt(i));
+    }
 }

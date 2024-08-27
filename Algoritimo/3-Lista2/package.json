@@ -13,8 +13,7 @@
     "exercicio7": "node ./src/exercicio7",
     "exercicio8": "node ./src/exercicio8",
     "exercicio9": "node ./src/exercicio9",
-    "exercicio10": "node ./src/exercicio10",
-    "exercicio11": "node ./src/exercicio11"
+    "exercicio10": "node ./src/exercicio10"
   },
   "author": "Gustavo Silva",
   "license": "ISC",

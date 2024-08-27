@@ -1,0 +1,21 @@
+{
+  "name": "2-aula4",
+  "version": "1.0.0",
+  "description": "Resolucao dos exercicios da aula 4",
+  "main": "index.js",
+  "scripts": {
+    "exercicio1": "node ./src/exercicio1",
+    "exercicio2": "node ./src/exercicio2",
+    "exercicio3": "node ./src/exercicio3",
+    "exercicio4": "node ./src/exercicio4",
+    "exercicio5": "node ./src/exercicio5"
+  },
+  "keywords": [
+    "Strings"
+  ],
+  "author": "Gustavo Silva",
+  "license": "ISC",
+  "dependencies": {
+    "2-aula4": "file:"
+  }
+}
