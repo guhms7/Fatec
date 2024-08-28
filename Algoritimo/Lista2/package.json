@@ -1,0 +1,23 @@
+{
+  "name": "3-lista2",
+  "version": "1.0.0",
+  "description": "Resolução da Atividade 2 ",
+  "main": "index.js",
+  "scripts": {
+    "exercicio1": "node ./src/exercicio1",
+    "exercicio2": "node ./src/exercicio2",
+    "exercicio3": "node ./src/exercicio3",
+    "exercicio4": "node ./src/exercicio4",
+    "exercicio5": "node ./src/exercicio5",
+    "exercicio6": "node ./src/exercicio6",
+    "exercicio7": "node ./src/exercicio7",
+    "exercicio8": "node ./src/exercicio8",
+    "exercicio9": "node ./src/exercicio9",
+    "exercicio10": "node ./src/exercicio10"
+  },
+  "author": "Gustavo Silva",
+  "license": "ISC",
+  "dependencies": {
+    "3-lista2": "file:"
+  }
+}
