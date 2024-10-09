@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 1</title>
+    <style>
+        html{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100vw;
+            height: 100vh;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            width: 100vw;
+            height: 100vh;
+        }
+        #menu{
+            width: 100vw;
+            border-bottom: 1px solid #aaa;
+            box-sizing: border-box;
+            height: 70px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        #titulo{
+            display: flex;
+        }
+        #texto-titulo{
+            font-size: 42px;
+        }
+        #avatar{
+            display: flex;
+            align-items: center;
+            padding-right: 5px;            
+        }
+        #corpo{
+            width: 100vw;
+            height: 100%;
+            display: flex;
+        }
+        #esquerda{
+            display: flex;
+            background: yellow;
+            width: 200px;
+            height: 100%;
+        }
+        #direita{
+            display: block;
+            height: 100%;
+            flex-grow: 1;
+            background: aqua;
+        }
+        #rodape{
+            width: 100vw;
+            height: 90px;
+            border-top: 1px solid #aaa;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center ;
+        }
+    </style>
+</head>
+<body>
+    <div id="menu">
+        <div id="titulo">
+            <img src="img/css.png" alt="" width="60" height="60" >
+            <div id="texto-titulo">CSS3</div>
+        </div>
+
+        <div id="avatar">
+            <div>Bill Gates</div>
+            <img src="./img/avatar.jpg" alt="" width="42" height="42" />
+          </div>
+    
+    </div>
+
+    <div id="corpo">
+        <div id="esquerda"></div>
+        <div id="direita"></div>
+          
+    </div>
+
+    <div id="rodape">
+        <img src="img/Fatec.png" alt="" width="87" height="41">
+        <img src="img/CPS.png" alt="" width="85" height="56">
+        <img src="img/Brasao.png" alt="" width="81" height="54">
+    </div>
+</body>
+</html>
