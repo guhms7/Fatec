@@ -1,0 +1,38 @@
+Gerar uma lista nao ordenada com os campos e registros do formulário
+Lista de animais
+Nome  Leao, Macaco
+Ordem felino, primata
+Clase mamifero, mamifero
+
+
+
+exemplo de formulário:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Animais</title>
+</head>
+<body>
+    <h1>Cadastre seus animais:</h1>
+    <form id="CadAnimais">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="ordem">Ordem:</label>
+        <input type="text" id="ordem" name="ordem" required><br><br>
+
+        <label for="classe">Classe:</label>
+        <select id="classe" name="classe" required>
+            <option value="mamifero">Mamífero</option>
+            <option value="reptil">Reptil</option>
+            <option value="anfibio">Anfibio</option>
+            <option value="ave">Ave</option>
+            <option value="peixe">Peixe</option>
+        </select>
+
+        <input type="submit" value="CADASTRAR">
+    </form>
+</body>
+</html>
